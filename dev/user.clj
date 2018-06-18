@@ -7,6 +7,6 @@
             [expound.alpha :as expound]
             [jesture.core :as core]))
 
-(set! spec/*explain-out* (expound/custom-printer {:print-specs? false
-                                                  :show-valid-values? true
-                                                  :theme :figwheel-theme}))
+(alter-var-root #'spec/*explain-out* (constantly (expound/custom-printer
+                                                  {:show-valid-values? true
+                                                   :theme :figwheel-theme})))
