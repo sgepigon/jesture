@@ -2,6 +2,20 @@
 
 Experimental visualization of clojure.spec.
 
+** Motivation
+
+I've been making goofy faces since grade school, so why can't I do it with my code?
+
+[[https://clojure.org/guides/spec][clojure.spec]] is a new core library in Clojure that brings together program validation, documentation, parsing, instrumentation, data generation, and automatic generative testing. Even though I've used it in some projects, there's still a lot that I don't understand.
+
+~jesture~ is an experiment to learn more by displaying important aspects of spec in the shape of a human face. Something akin to a [[https://en.wikipedia.org/wiki/Chernoff_face][Chernoff face]] would force me to ground the abstract ideas of spec into something tangible.
+
+Like a caricaturist on the boardwalk, constraints on time, attention, and the medium will focus my work. A "caricature" of clojure.spec would exaggerate the subtle but important features.
+
+As [[https://eagereyes.org/criticism/chernoff-faces][flawed as Chernoff faces are]], by implementing and struggling to fit a bad analogy, I'm forced to articulate why it's ill-suited. I want to play it out and see how far the analogy goes, where it breaks down, and what might work instead.
+
+It's a lighthearted way to play with my code and maybe make some people laugh. Honestly, it just seems fun!
+
 ** Installation
 
 Download from [[https://github.com/sgepigon/jesture]].
