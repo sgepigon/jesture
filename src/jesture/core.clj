@@ -1,4 +1,5 @@
 (ns jesture.core
+  (:gen-class)
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 
